@@ -1,0 +1,56 @@
+{
+  "flower": "tag:forge:mushrooms",
+  "maxTimeInHive": 700,
+  "hasHoneycomb": true,
+  "sizeModifier": 0.5,
+  "baseLayerTexture": "grass/grass_bee",
+  "ColorData": {
+    "isBeeColored": false,
+	"honeycombColor":"darkseagreen",
+    "modelType": "QUEEN"
+  },
+  "MutationData": {
+    "hasMutation": true,
+	"mutationCount":5,
+    "mutations" : [
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:grass",
+        "chance": 0.10,
+        "outputs": [
+          {"outputID": "minecraft:dandelion", "weight":1},
+		  {"outputID": "minecraft:poppy","weight":1},
+		  {"outputID": "minecraft:blue_orchid", "weight":1},
+		  {"outputID": "minecraft:allium","weight":1},
+		  {"outputID": "minecraft:azure_bluet", "weight":1},
+		  {"outputID": "minecraft:red_tulip","weight":1},
+		  {"outputID": "minecraft:orange_tulip", "weight":1},
+		  {"outputID": "minecraft:white_tulip","weight":1},
+		  {"outputID": "minecraft:pink_tulip","weight":1},
+		  {"outputID": "minecraft:oxeye_daisy", "weight":1},
+		  {"outputID": "minecraft:cornflower","weight":1},		  
+		  {"outputID": "minecraft:lily_of_the_valley","weight":1},
+		  {"outputID": "minecraft:wither_rose", "weight":1},
+		  {"outputID": "minecraft:sunflower","weight":1},		  
+		  {"outputID": "minecraft:lilac","weight":1},
+		  {"outputID": "minecraft:rose_bush", "weight":1},
+		  {"outputID": "minecraft:peony","weight":1}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "feedItem": "minecraft:bone_meal",
+    "feedAmount": 1,
+    "isBreedable": true,
+	"parent1":"grass",
+	"parent2":"bug"
+  },
+  "TraitData": {}
+}

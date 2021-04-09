@@ -1,0 +1,40 @@
+{
+  "flower": "tag:forge:mushrooms",
+  "maxTimeInHive": 700,
+  "hasHoneycomb": false,
+  "sizeModifier": 0.7,
+  "baseLayerTexture": "grass/grass_bee",
+  "ColorData": {
+    "isBeeColored": false,
+	"honeycombColor":"darkseagreen",
+    "modelType": "QUEEN"
+  },
+  "MutationData": {
+    "hasMutation": true,
+	"mutationCount":5,
+    "mutations" : [
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:dirt",
+        "chance": 0.60,
+        "outputs": [
+          {"outputID": "minecraft:grass_block"}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "feedItem": "tag:forge:mushrooms",
+    "feedAmount": 1,
+    "isBreedable": true,
+	"parent1":"fungal",
+	"parent2":"bug"
+  },
+  "TraitData": {}
+}

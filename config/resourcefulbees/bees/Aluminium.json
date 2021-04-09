@@ -1,0 +1,43 @@
+{
+  "flower": "tag:forge:blocks/aluminum",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 800,
+  "sizeModifier": 0.5,
+  "ColorData": {
+    "isBeeColored": true,
+	"primaryColor": "silver",
+	"secondaryColor": "cadetblue",
+	"honeycombColor":"cadetblue",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+	"mutationCount":3,
+    "mutations" : [
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:stone",
+		"chance": 0.30,
+        "outputs": [
+          {"outputID": "libvulpes:orealuminum"}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "libvulpes:ingotaluminum"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem": "minecraft:coal",
+    "feedAmount": 1,
+	"parent1":"mineral",
+	"parent2":"zinc",
+	"breedChance":0.30
+  },
+  "TraitData": {}
+}

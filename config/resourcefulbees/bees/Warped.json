@@ -1,0 +1,36 @@
+{
+  "flower": "minecraft:warped_roots",
+  "maxTimeInHive": 700,
+  "hasHoneycomb": true,
+  "sizeModifier": 0.5,
+  "ColorData": {
+    "isBeeColored": true,
+	"primaryColor": "darkcyan",
+	"secondaryColor": "purple",
+	"honeycombColor":"darkcyan",
+    "modelType": "GELATINOUS"
+  },
+  "MutationData": {
+    "hasMutation": true,
+	"mutationCount":5,
+    "mutations" : [
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:warped_nylium",
+        "chance": 0.30,
+        "outputs": [
+          {"outputID": "minecraft:warped_wart_block"}
+        ]
+      }
+    ]
+  },  
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "feedItem": "minecraft:warped_roots",
+    "feedAmount": 1,
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

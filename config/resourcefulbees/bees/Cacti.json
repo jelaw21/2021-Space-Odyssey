@@ -1,0 +1,30 @@
+{
+  "flower": "minecraft:grass",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "sizeModifier": 0.5,
+  "ColorData": {
+    "isBeeColored": true,
+	"primaryColor": "forestgreen",
+	"secondaryColor": "#262626",
+	"honeycombColor":"forestgreen",
+    "modelType": "CROP"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:cactus",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "feedItem": "minecraft:grass",
+    "feedAmount": 1,
+    "isBreedable": true,
+	"parent1":"reaper",
+	"parent2":"melon",
+	"breedChance": 0.30
+  },
+  "TraitData": {}
+}

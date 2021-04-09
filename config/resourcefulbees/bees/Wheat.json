@@ -1,0 +1,33 @@
+{
+  "flower": "all",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "sizeModifier": 0.5,
+  "ColorData": {
+    "isBeeColored": true,
+	"primaryColor": "goldenrod",
+	"secondaryColor": "tan",
+	"honeycombColor":"goldenrod",
+    "modelType": "CROP"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:wheat",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "feedItem": "all",
+    "feedAmount": 1,
+    "isBreedable": true,
+	"parent1":"grass",
+	"parent2":"floral",
+	"breedWeight": 30
+  },
+  "TraitData": {}
+}

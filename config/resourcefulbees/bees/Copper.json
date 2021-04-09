@@ -1,0 +1,43 @@
+{
+  "flower": "tag:forge:storage_blocks/copper",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 900,
+  "sizeModifier": 0.5,
+  "ColorData": {
+    "isBeeColored": true,
+    "primaryColor": "silver",
+	"secondaryColor": "orangered",
+	"honeycombColor":"orangered",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+	"mutationCount":3,
+    "mutations" : [
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:stone",
+		"chance": 0.30,
+        "outputs": [
+          {"outputID": "thermal:copper_ore"}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:copper_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem": "minecraft:coal",
+    "feedAmount": 1,
+	"parent1":"coal",
+	"parent2":"mineral",
+	"breedWeight":40
+  },
+  "TraitData": {}
+}

@@ -1,0 +1,59 @@
+{
+  "flower": "minecraft:dead_bush",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "sizeModifier": 0.5,
+  "ColorData": {
+    "isBeeColored": true,
+	"primaryColor": "dimgray",
+	"secondaryColor": "burlywood",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+	"mutationCount":5,
+    "mutations" : [
+	  {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:dirt",
+        "chance": 0.70,
+        "outputs": [
+          {"outputID": "minecraft:sand"}
+        ]
+      },
+	  {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:netherrack",
+        "chance": 0.60,
+        "outputs": [
+          {"outputID": "minecraft:blackstone"}
+        ]
+      },
+	  {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:grass_block",
+        "chance": 0.70,
+        "outputs": [
+          {"outputID": "minecraft:coarse_dirt"}
+        ]
+      },
+	  {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:coarse_dirt",
+        "chance": 0.70,
+        "outputs": [
+          {"outputID": "minecraft:gravel"}
+        ]
+      }
+    ]
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "feedItem": "minecraft:dead_bush",
+    "feedAmount": 1,
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

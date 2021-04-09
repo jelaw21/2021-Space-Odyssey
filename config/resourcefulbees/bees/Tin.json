@@ -1,0 +1,43 @@
+{
+  "flower": "tag:forge:storage_blocks/tin",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 800,
+  "sizeModifier": 0.5,
+  "ColorData": {
+    "isBeeColored": true,
+    "primaryColor": "silver",
+	"secondaryColor": "lightcyan",
+	"honeycombColor":"lightcyan",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+	"mutationCount":3,
+    "mutations" : [
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:stone",
+		"chance": 0.30,
+        "outputs": [
+          {"outputID": "thermal:tin_ore"}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:tin_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem": "minecraft:coal",
+    "feedAmount": 1,
+	"parent1":"coal",
+	"parent2":"mineral",
+	"breedWeight":20
+  },
+  "TraitData": {}
+}

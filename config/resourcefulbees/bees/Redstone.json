@@ -1,0 +1,44 @@
+{
+  "flower": "minecraft:redstone_block",
+  "maxTimeInHive": 1000,
+  "hasHoneycomb": true,
+  "sizeModifier": 0.5,
+  "baseLayerTexture": "ores/redstone/redstone_bee",
+  "sizeModifier": 0.5,
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#aa0f01",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+	"mutationCount":3,
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:stone",
+		"chance":0.20,
+        "outputs": [
+          {"outputID": "minecraft:redstone_ore"}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:redstone",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "feedItem": "tag:forge:gems",
+    "feedAmount": 1,
+    "isBreedable": true,
+	"parent1":"mineral",
+	"parent2":"tin",
+	"breedChance": 0.30
+  },
+  "TraitData": {}
+}

@@ -1,0 +1,43 @@
+{
+  "flower": "minecraft:diamond_block",
+  "maxTimeInHive": 1200,
+  "sizeModifier": 0.5,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/diamond/diamond_bee",
+  "sizeModifier": 0.5,
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#00ffff",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:stone",
+        "chance": 0.10,
+        "outputs": [
+          {"outputID": "minecraft:diamond_ore"}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:diamond",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "feedItem": "tag:forge:gems",
+    "feedAmount": 1,
+    "isBreedable": true,
+	"parent1":"mineral",
+	"parent2":"zinc",
+	"breedChance": 0.15
+  },
+  "TraitData": {}
+}

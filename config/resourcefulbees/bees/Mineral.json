@@ -1,0 +1,52 @@
+{
+  "flower": "minecraft:obsidian",
+  "maxTimeInHive": 900,
+  "hasHoneycomb": true,
+  "sizeModifier": 0.7,
+  "baseLayerTexture": "mineral/mineral_bee",
+  "ColorData": {
+    "isBeeColored": false,
+	"honeycombColor":"darkslateblue",
+    "modelType": "QUEEN"
+  },
+  "MutationData": {
+    "hasMutation": true,
+	"mutationCount":3,
+    "mutations" : [
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:stone",
+        "chance": 0.40,
+        "outputs": [
+          {"outputID": "minecraft:lapis_ore"}
+        ]
+      },
+	  {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:netherrack",
+        "chance": 0.60,
+        "outputs": [
+          {"outputID": "minecraft:nether_quartz_ore"}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:lapis_lazuli",
+    "mainOutputCount": 2,
+	"mainOutputWeight":1.00,
+	"secondaryOutput":"minecraft:quartz",
+	"secondaryCount":2,
+	"secondaryWeight":0.20
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "feedItem": "tag:forge:gems",
+    "feedAmount": 1,
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

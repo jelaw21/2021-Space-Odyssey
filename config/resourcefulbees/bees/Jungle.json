@@ -1,0 +1,33 @@
+{
+  "flower": "all",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "sizeModifier": 0.5,
+  "ColorData": {
+    "isBeeColored": true,
+	"primaryColor": "#5f5220",
+	"secondaryColor": "green",
+	"honeycombColor":"#5f5220",
+    "modelType": "CROP"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:jungle_sapling",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "feedItem": "all",
+    "feedAmount": 1,
+    "isBreedable": true,
+	"parent1":"oak",
+	"parent2":"grass",
+	"breedWeight": 15
+  },
+  "TraitData": {}
+}

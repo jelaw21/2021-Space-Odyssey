@@ -1,0 +1,55 @@
+[
+  {
+    "mob": ["aoa3:horndron", "aoa3:chimera","aoa3:boneback","aoa3:desert_charger","aoa3:furlion", "aoa3:sand_golem", "aoa3:bugeye","aoa3:nightfly","aoa3:night_reaper", "aoa3:ghost","aoa3:void_walker", "minecraft:husk", "minecraft:stray"],
+    "persecond": 0.3,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "odyssey:earth",
+      "maxthis": 4
+    }
+  },
+  {
+    "mob": ["aoa3:bomb_carrier", "aoa3:muckopede", "aoa3:stone_giant", "aoa3:leafy_giant", "aoa3:mother_void_walker", "aoa3:living_fungi","aoa3:ancient_golem"],
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "odyssey:earth",
+      "maxthis": 2
+    }
+  },
+  {
+    "mob": "aoa3:corrupted_traveller",
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "odyssey:earth",
+      "maxthis": 1
+    }
+  },
+  {
+    "mob": ["aoa3:everbeast"],
+    "persecond": 0.1,
+    "attempts": 10,
+	"norestrictions":true,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "odyssey:earth",
+      "maxthis": 3
+    }
+  }
+]

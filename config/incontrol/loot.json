@@ -1,0 +1,55 @@
+[
+	{
+		"mob":"aoa3:bugeye",
+		"player":true,
+		"item":"resourcefulbees:bug_bee_spawn_egg"
+	},
+	{
+		"mob":"aoa3:horndron",
+		"player":true,
+		"item":"minecraft:brown_wool",
+		"itemcount":"2-3/3-5/5-8"
+	},
+	{
+		"mob":"aoa3:horndron",
+		"player":true,
+		"item":"minecraft:porkchop",
+		"itemcount":"2-3/3-5/5-8"
+	},
+	{
+		"mob":"aoa3:horndron",
+		"player":true,
+		"item":"minecraft:leather",
+		"itemcount":"2-3/3-5/5-8"
+	},
+	{
+		"mob":"minecraft:mooshroom",
+		"remove":"minecraft:leather"
+	},
+	{
+		"mob":"aoa3:sand_golem",
+		"player":true,
+		"item":"minecraft:sand",		
+		"random":0.30
+	},
+	{
+		"mob":["aoa3:night_reaper","aoa3:ghost", "aoa3:void_walker","aoa3:mother_void_walker","aoa3:everbeast"],
+		"player":true,
+		"item":"tombstone:grave_dust",
+		"random":0.20
+	},
+	{
+		"mob":["aoa3:night_reaper"],
+		"player":true,
+		"item":"resourcefulbees:reaper_bee_spawn_egg",
+		"random":0.05
+	},
+	{
+		"mob":"aoa3:bomb_carrier",
+		"player":true,
+		"item":"minecraft:gunpowder",
+		"itemcount":"2-3/3-5/5-8"
+	}
+	
+		
+]

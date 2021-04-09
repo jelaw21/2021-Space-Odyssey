@@ -1,0 +1,27 @@
+[
+	{
+		"block":"minecraft:obsidian",
+		"drop": "resourcefulbees:mineral_bee_spawn_egg",
+		"random":0.05,
+		"result":"allow"
+	},
+	{
+		"block":"minecraft:red_mushroom_block",
+		"drop": "resourcefulbees:fungal_bee_spawn_egg",
+		"random":0.70,
+		"result":"allow"
+	},
+	{
+		"block":"minecraft:brown_mushroom_block",
+		"drop": "resourcefulbees:fungal_bee_spawn_egg",
+		"random":0.70,
+		"result":"allow"
+	},
+	{
+		"block":"minecraft:warped_wart_block",
+		"drop": "resourcefulbees:warped_bee_spawn_egg",
+		"random":0.70,
+		"result":"allow"
+	}
+
+]

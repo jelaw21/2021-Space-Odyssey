@@ -1,0 +1,33 @@
+{
+  "flower": "all",
+  "maxTimeInHive": 700,
+  "hasHoneycomb": true,
+  "sizeModifier": 0.5,
+  "ColorData": {
+    "isBeeColored": true,
+	"primaryColor": "#d9d9d9",
+	"secondaryColor": "darkolivegreen",
+	"honeycombColor":"#d9d9d9",
+    "modelType": "CROP"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:acacia_sapling",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "feedItem": "all",
+    "feedAmount": 1,
+    "isBreedable": true,
+	"parent1":"fungal",
+	"parent2":"grass",
+	"breedWeight": 10
+  },
+  "TraitData": {}
+}

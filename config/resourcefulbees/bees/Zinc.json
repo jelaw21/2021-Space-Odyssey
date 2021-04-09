@@ -1,0 +1,43 @@
+{
+  "flower": "futurepack:block_zinc",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 1000,
+  "sizeModifier": 0.5,
+  "ColorData": {
+    "isBeeColored": true,
+	"primaryColor": "silver",
+	"secondaryColor": "lightblue",
+	"honeycombColor": "lightblue",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+	"mutationCount":3,
+    "mutations" : [
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:stone",
+		"chance": 0.30,
+        "outputs": [
+          {"outputID": "futurepack:ore_zinc"}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "futurepack:ingot_zinc"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem": "minecraft:coal",
+    "feedAmount": 1,
+	"parent1":"coal",
+	"parent2":"mineral",
+	"breedWeight":10
+  },
+  "TraitData": {}
+}

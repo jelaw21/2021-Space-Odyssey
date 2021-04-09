@@ -1,0 +1,134 @@
+[
+
+	{
+		"mob":["aoa3:desert_charger", "aoa3:horndron", "aoa3:sand_golem"],
+		"biome":"minecraft:hotdry",
+		"block":"advancedrocketry:hotturf",
+		"seesky":true,
+		"result":"allow"
+	},
+	
+	{
+		"mob":["aoa3:furlion", "aoa3:sphinx", "aoa3:muckopede", "aoa3:chimera"],
+		"biome":"minecraft:modified_badlands_plateau",
+		"block":"minecraft:terracotta",
+		"seesky":true,
+		"result":"allow"
+	},
+	
+	{
+		"mob":["aoa3:bomb_carrier", "aoa3:boneback", "aoa3:ancient_golem", "aoa3:stone_giant"],
+		"biome":["minecraft:volcanic","minecraft:volcanic_barren"],
+		"block":"advancedrocketry:basalt",
+		"seesky":true,
+		"result":"allow"
+	},
+	
+	{
+		"mob":["aoa3:night_reaper"],
+		"biome":["minecraft:hotdry", "minecraft:modified_badlands_plateau"],
+		"maxlight":5,
+		"seesky":true,
+		"result":"allow"
+	},
+	{
+		"mob":["minecraft:husk"],
+		"biome":["minecraft:hotdry"],
+		"block":"advancedrocketry:hotturf",
+		"maxlight":5,
+		"seesky":true,
+		"result":"allow"
+	},
+	
+	{
+		"mob":["minecraft:stray"],
+		"biome":["minecraft:mushroom_fields"],
+		"block":"minecraft:mycelium",
+		"maxlight":5,
+		"seesky":true,
+		"result":"allow"
+	},
+	
+	{
+		"mob":["aoa3:nightfly"],
+		"biome":["minecraft:modified_badlands_plateau"],
+		"maxlight":5,
+		"seesky":true,
+		"result":"allow"
+	},
+	
+	{
+		"mob":["aoa3:living_fungi"],
+		"biome":["minecraft:mushroom_fields"],
+		"block":"minecraft:mycelium",
+		"seesky":true,
+		"result":"allow"
+	},
+	{
+		"mob":["aoa3:leafy_giant", "minecraft:zoglin"],
+		"biome":["minecraft:warped_forest"],
+		"seesky":true,
+		"result":"allow"
+	},
+	
+	{
+		"mob":["aoa3:bugeye"],
+		"biome":["minecraft:warped_forest"],
+		"maxlight":5,
+		"seesky":true,
+		"result":"allow"
+	},
+	
+	{
+		"mob":["aoa3:corrupted_traveller"],
+		"seesky":true,
+		"result":"allow"
+	},
+	
+	{
+		"mob":["aoa3:ghost", "aoa3:void_walker","aoa3:mother_void_walker","aoa3:everbeast"],
+		"biome":["minecraft:volcanic","minecraft:volcanic_barren", "minecraft:nether_wastes"],
+		"maxlight":5,
+		"result":"allow"
+	},
+	{
+		"mob":["minecraft:ghast", "minecraft:zombified_piglin", "minecraft:husk", "minecraft:stray"],
+		"dimension":"odyssey:earth",
+		"result":"deny"
+	},
+	
+	{
+		"mob":["minecraft:enderman"],
+		"dimension":"odyssey:earth",
+		"mincount":{
+			"amount":1,
+			"perplayer":true
+		},
+		"result":"deny"
+	},
+	
+	{
+	
+		"mod":"aoa3",
+		"dimension":"odyssey:earth",
+		"result":"deny"
+		
+	},
+	
+	{
+	
+		"mob":["minecraft:skeleton","minecraft:zombie","minecraft:spider","minecraft:creeper","minecraft:witch"],
+		"dimension":"odyssey:earth",
+		"result":"deny"
+		
+	},
+	
+	{
+	
+		"mod":"aoa3:realmshifter",
+		"result":"deny"
+		
+	}
+	
+	
+]

@@ -1,0 +1,42 @@
+{
+  "flower": "minecraft:gold_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 1000,
+  "sizeModifier": 0.5,
+  "baseLayerTexture": "ores/gold/gold_bee",
+  "sizeModifier": 0.5,
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#FFDC00",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:stone",
+		"chance": 0.30,
+        "outputs": [
+          {"outputID": "minecraft:gold_ore"}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:gold_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "feedItem": "minecraft:coal",
+    "feedAmount": 1,
+    "isBreedable": true,
+	"parent1":"mineral",
+	"parent2":"copper",
+	"breedChance": 0.30
+  },
+  "TraitData": {}
+}

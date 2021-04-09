@@ -1,0 +1,33 @@
+{
+  "flower": "all",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "sizeModifier": 0.5,
+  "ColorData": {
+    "isBeeColored": true,
+	"primaryColor": "sandybrown",
+	"secondaryColor": "goldenrod",
+	"honeycombColor":"sandybrown",
+    "modelType": "CROP"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:potato",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "feedItem": "all",
+    "feedAmount": 1,
+    "isBreedable": true,
+	"parent1":"grass",
+	"parent2":"floral",
+	"breedWeight": 20
+  },
+  "TraitData": {}
+}
