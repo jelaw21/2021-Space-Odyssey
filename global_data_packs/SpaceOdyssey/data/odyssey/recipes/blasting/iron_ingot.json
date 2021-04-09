@@ -1,0 +1,11 @@
+{
+  "type": "blasting",
+  "ingredient": [
+  	{
+  	  "item": "aoa3:rusted_iron_ingot"
+  	}
+  ],
+  "result": "minecraft:iron_ingot",
+  "experience": 0.5,
+  "cookingtime": 150
+}

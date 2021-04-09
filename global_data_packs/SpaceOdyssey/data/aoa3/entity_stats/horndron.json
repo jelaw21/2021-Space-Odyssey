@@ -1,0 +1,12 @@
+{
+  "minecraft:generic.max_health": 20.0,
+  "minecraft:generic.armor_toughness": 0.0,
+  "forge:swim_speed": 1.0,
+  "forge:nametag_distance": 64.0,
+  "minecraft:generic.attack_knockback": 0.0,
+  "minecraft:generic.movement_speed": 0.25,
+  "minecraft:generic.attack_damage": 0.5,
+  "forge:entity_gravity": 0.08,
+  "minecraft:generic.follow_range": 4.0,
+  "minecraft:generic.knockback_resistance": 0.3
+}

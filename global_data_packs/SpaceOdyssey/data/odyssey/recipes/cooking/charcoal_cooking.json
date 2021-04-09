@@ -1,0 +1,11 @@
+{
+  "type": "campfire_cooking",
+  "ingredient": [
+  	{
+  	  "tag": "odyssey:cooked_food"
+  	}
+  ],
+  "result": "minecraft:charcoal",
+  "experience": 0.2,
+  "cookingtime": 600
+}

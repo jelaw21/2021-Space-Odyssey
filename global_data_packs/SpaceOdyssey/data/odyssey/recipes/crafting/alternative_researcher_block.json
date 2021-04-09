@@ -1,0 +1,40 @@
+{
+  "type": "futurepack:research_shaped",
+  "group": "futurepack",
+  "pattern": [
+    "CDC",
+    "BMP",
+    "ZKZ"
+  ],
+  "key": {
+    "C": {
+		"item":"minecraft:quartz"
+	},
+    "D": {
+      "tag": "forge:glass_panes"
+    },
+    "Z": {
+      "tag": "forge:ingots/zinc"
+    },
+    "M": [
+	    {
+	      "item": "futurepack:color_iron_white"
+	    },
+	    {"tag": "forge:blocks/zinc"},
+	    {"tag": "forge:blocks/tin"},
+	    {"tag": "forge:blocks/iron"}
+    ],
+    "K": {
+      "item": "futurepack:parts_iron"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "B": {
+      "tag": "forge:paper"
+    }
+  },
+  "result": {
+    "item": "futurepack:researcher_white"
+  }
+}

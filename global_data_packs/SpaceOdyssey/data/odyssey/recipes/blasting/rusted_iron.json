@@ -1,0 +1,11 @@
+{
+  "type": "blasting",
+  "ingredient": [
+  	{
+  	  "item": "advancedrocketry:hotturf"
+  	}
+  ],
+  "result": "aoa3:rusted_iron_ingot",
+  "experience": 0.5,
+  "cookingtime": 100
+}

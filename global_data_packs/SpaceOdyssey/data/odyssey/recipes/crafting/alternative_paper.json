@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+        {
+            "item": "futurepack:wood_chips"
+        },
+		{
+            "item": "futurepack:wood_chips"
+        },
+		{
+            "item": "futurepack:wood_chips"
+        },
+		{
+            "item": "futurepack:wood_chips"
+        },
+		{
+            "item": "minecraft:water_bucket"
+        },
+		{
+            "item": "futurepack:wood_chips"
+        },
+		{
+            "item": "futurepack:wood_chips"
+        },
+		{
+            "item": "futurepack:wood_chips"
+        },
+		{
+            "item": "futurepack:wood_chips"
+        }
+    ],
+    "result":
+    {
+        "item": "minecraft:paper",
+        "count": 1
+    }
+}

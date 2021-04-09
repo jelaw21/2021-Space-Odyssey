@@ -1,0 +1,19 @@
+{
+  "type": "geolosys:ore_deposit",
+  "config": {
+    "yMin": 32,
+    "yMax": 60,
+    "chance": 8,
+    "size": 32,
+    "type": "DENSE",
+    "density": 1.0,
+    "block": "geolosys:hematite_ore",
+    "sample": "geolosys:hematite_ore_sample",
+    "dimensions": {
+      "isBlacklist": false,
+      "filter": [
+        "odyssey:earth"
+      ]
+    }
+  }
+}

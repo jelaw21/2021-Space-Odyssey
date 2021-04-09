@@ -1,0 +1,42 @@
+{
+  "type": "futurepack:research_shaped",
+  "group": "futurepack",
+  "pattern": [
+    "CSC",
+    "IMI",
+    "KBK"
+  ],
+  "key": {
+    "C": {
+		"item":"minecraft:quartz"
+    },
+    "S": [
+      {
+        "item": "futurepack:escanner"
+      },
+      {
+        "item": "futurepack:escanner"
+      }
+    ],
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "M": [
+	    {
+	      "item": "futurepack:color_iron_white"
+	    },
+	    {"tag": "forge:blocks/zinc"},
+	    {"tag": "forge:blocks/tin"},
+	    {"tag": "forge:blocks/iron"}
+    ],
+    "K": {
+      "item": "futurepack:coil_copper"
+    },
+    "B": {
+      "item": "futurepack:parts_iron"
+    }
+  },
+  "result": {
+    "item": "futurepack:scanner_block_white"
+  }
+}

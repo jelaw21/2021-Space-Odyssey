@@ -1,0 +1,1 @@
+{"key":"blackstone","category":"stone","primary":"4","secondary":"3","tertiary":"0","durability":"131","integrityCost":"1","integrityGain":"4","magicCapacity":"90","toolLevel":"2","toolEfficiency":"4","tints":{"glyph":"blackstone_glyph","texture":"blackstone"},"textures":["grainy","crude","default"],"material":{"tag":"forge:blackstone"},"requiredTools":{"hammer":1}}

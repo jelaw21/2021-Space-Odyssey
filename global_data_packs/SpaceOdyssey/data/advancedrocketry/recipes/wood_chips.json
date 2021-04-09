@@ -1,0 +1,17 @@
+{
+    "type": "advancedrocketry:cuttingmachine",
+    "itemingredients":
+    [
+        {
+
+            "tag": "forge:planks/wooden"
+        }
+    ],
+    "time": 200,
+    "energy": 50,
+    "itemresults":
+    {
+            "item": "futurepack:wood_chips",
+            "count": 3
+    }
+}

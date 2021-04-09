@@ -1,0 +1,18 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "odyssey:all_terracotta"
+  },
+  "result": [
+    {
+      "item": "minecraft:clay_ball",
+	  "count": 2,
+      "chance": 2.0
+    },
+    {
+      "item": "minecraft:sand",
+      "chance": 0.7
+    }
+  ],
+  "experience": 0.2
+}

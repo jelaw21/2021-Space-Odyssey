@@ -1,0 +1,89 @@
+{
+	"type": "indus_furnace",
+	"recipes": [
+	  {
+	    "id": "ingot_copper",
+	    "output": {
+	      "size": 2,
+	      "name": "futurepack:ingot_copper"
+	    },
+	    "input": [
+	      "advancedrocketry:hotturf",
+	      "minecraft:magma_block",
+	      "advancedrocketry:hotturf"
+	    ]
+	  },
+	  {
+	    "id": "ingot_tin",
+	    "output": {
+	      "size": 2,
+	      "name": "futurepack:ingot_tin"
+	    },
+	    "input": [
+	      "advancedrocketry:basalt",
+	      "minecraft:magma_block",
+	      "advancedrocketry:basalt"
+	    ]
+	  },
+	  {
+	    "id": "ingot_zinc",
+	    "output": {
+	      "size": 2,
+	      "name": "futurepack:ingot_zinc"
+	    },
+	    "input": [
+	      "minecraft:basalt",
+	      "minecraft:magma_block",
+	      "minecraft:basalt"
+	    ]
+	  },
+	  {
+	    "id": "ingot_aluminium",
+	    "output": {
+	      "size": 2,
+	      "name": "futurepack:ingot_aluminium"
+	    },
+	    "input": [
+	      "minecraft:blackstone",
+	      "minecraft:quartz",
+	      "minecraft:quartz"
+	    ]
+	  },
+	  {
+	    "id": "dust_redstone",
+	    "output": {
+	      "size": 4,
+	      "name": "minecraft:redstone"
+	    },
+	    "input": [
+	      "minecraft:netherrack",
+	      "minecraft:iron_ingot",
+	      "futurepack:ingot_tin"
+	    ]
+	  },
+	  {
+	    "id": "dust_lapis",
+	    "output": {
+	      "size": 4,
+	      "name": "minecraft:lapis_lazuli"
+	    },
+	    "input": [
+	      "minecraft:quartz",
+	      "minecraft:basalt",
+	      "minecraft:basalt"
+	    ]
+	  },
+	  {
+	    "id": "diamond",
+	    "output": {
+	      "size": 1,
+	      "name": "minecraft:diamond"
+	    },
+	    "input": [
+	      "minecraft:coal_block",
+	      "minecraft:coal_block",
+	      "minecraft:coal_block"
+	    ]
+	  }
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "blasting",
+  "ingredient": [
+  	{
+  	  "item": "minecraft:dried_kelp"
+  	}
+  ],
+  "result": "minecraft:coal",
+  "experience": 0.3,
+  "cookingtime": 100
+}

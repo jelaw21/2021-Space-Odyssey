@@ -1,0 +1,20 @@
+{
+  "type": "futurepack:research_shaped",
+  "group": "futurepack",
+  "pattern": [
+    "III",
+    "FFF",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "futurepack:industrial_furnace"
+  }
+}

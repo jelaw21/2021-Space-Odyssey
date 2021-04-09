@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+		"libvulpes:blockcopper",
+		"futurepack:block_copper"
+	]
+}

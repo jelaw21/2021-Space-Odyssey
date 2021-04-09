@@ -1,0 +1,21 @@
+{
+    "type": "advancedrocketry:precisionassembler",
+    "itemingredients":
+    [
+        {
+
+            "item": "advancedrocketry:basiccircuitplate"
+        },
+        {
+            "item": "futurepack:chip_logic",
+			"count":2
+        }
+    ],
+    "time": 200,
+    "energy": 10,
+    "itemresults":
+    {
+		"item": "advancedrocketry:circuit_ic_basic",
+		"count": 4
+    }
+}
